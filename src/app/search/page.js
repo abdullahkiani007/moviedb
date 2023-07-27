@@ -4,8 +4,10 @@ import { useState } from "react";
 import Movie from "../movies/page";
 // fetch movies
 
-function page({ result }) {
-  console.log(result);
+function page({ params }) {
+  const result = params;
+  console;
+
   return (
     <div className="flex flex-wrap justify-center">
       {result.map((movie) => {

@@ -9,8 +9,8 @@ export default async function Home() {
     .then((res) => res.json())
     .catch((error) => console.log(error));
 
-  const results = data.results;
-  const movies = results.map((movie) => {
+  const results = await data.results;
+  const movies = await results.map((movie) => {
     return <Movie key={movie.id} movie={movie} />;
   });
 

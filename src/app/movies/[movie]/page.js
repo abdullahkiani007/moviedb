@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 async function page({ params }) {
   const { movie } = params;
 
@@ -32,9 +34,11 @@ async function page({ params }) {
         </p>
       </div>
 
-      <img
+      <Image
         className="w-96 h-auto  self-center"
         src={`https://image.tmdb.org/t/p/w500${data.poster_path}`}
+        width={500}
+        height={500}
         alt={movie.title}
       />
     </div>

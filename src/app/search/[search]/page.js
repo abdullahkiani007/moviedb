@@ -15,7 +15,7 @@ async function page({ params }) {
       <h1 className="text-white text-3xl text-center mt-20 mb-10">
         Search Result : {search}
       </h1>
-      <Search result={results} />
+      <Search params={results} />
     </div>
   );
 }
