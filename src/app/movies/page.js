@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-async function Page(params) {
+function Page(params) {
   const { movie } = params;
   const { id, poster_path, vote_average, title, release_date } = movie;
   return (
