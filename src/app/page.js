@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Movie from "./movies/page";
+import Movie from "./movies/movie";
 import Input from "./Input";
 
 export default async function Home() {

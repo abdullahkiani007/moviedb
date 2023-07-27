@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../page";
+import Search from "../search";
 async function page({ params }) {
   const { search } = params;
   const data = await fetch(

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-function Page(props) {
+function movie(props) {
   const { movie } = props;
   const { id, poster_path, vote_average, title, release_date } = movie;
   return (
@@ -27,4 +27,4 @@ function Page(props) {
   );
 }
 
-export default Page;
+export default movie;

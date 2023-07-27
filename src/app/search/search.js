@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import Movie from "../movies/page";
+import Movie from "../movies/movie";
 // fetch movies
 
-function page({ params }) {
+function search({ params }) {
   const result = params;
   console;
 
@@ -19,4 +19,4 @@ function page({ params }) {
   );
 }
 
-export default page;
+export default search;

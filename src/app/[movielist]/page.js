@@ -1,5 +1,5 @@
 import React from "react";
-import Movie from "../movies/page";
+import Movie from "../movies/movie";
 
 async function page({ params }) {
   const { movielist } = params;
