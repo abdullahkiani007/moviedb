@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-function Page(params) {
-  const { movie } = params;
+function Page(props) {
+  const { movie } = props;
   const { id, poster_path, vote_average, title, release_date } = movie;
   return (
     <Link href={`/movies/${id}`}>
